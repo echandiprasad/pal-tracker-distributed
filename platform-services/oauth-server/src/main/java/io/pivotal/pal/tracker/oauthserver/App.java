@@ -1,4 +1,4 @@
-package io.pivotal.pal.tracker.backlog;
+package io.pivotal.pal.tracker.allocations;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -18,7 +18,7 @@ import java.util.TimeZone;
 @EnableOAuth2Client
 @EnableEurekaClient
 @SpringBootApplication
-@ComponentScan({"io.pivotal.pal.tracker.backlog", "io.pivotal.pal.tracker.restsupport"})
+@ComponentScan({"io.pivotal.pal.tracker.allocations", "io.pivotal.pal.tracker.restsupport"})
 public class App {
 
     public static void main(String[] args) {
